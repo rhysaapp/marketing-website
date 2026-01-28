@@ -8,9 +8,10 @@ export default function Footer() {
       <div className="mx-auto max-w-5xl px-6 py-12">
         <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
           <div className="flex flex-col items-center gap-2 sm:items-start">
-            <span className="text-lg font-extrabold text-neutral-900 dark:text-neutral-100">
-              Rhysa
-            </span>
+            <div className="flex items-center gap-2 mb-4">
+              <img src="/icon.svg" alt="Rhysa" className="w-8 h-8" />
+              <span className="font-bold text-xl">Rhysa</span>
+            </div>
             <p className="text-sm text-neutral-500 dark:text-neutral-400">
               Simple guided breathing.
             </p>

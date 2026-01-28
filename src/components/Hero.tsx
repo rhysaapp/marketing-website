@@ -10,11 +10,17 @@ export default function Hero() {
       </div>
 
       <div className="mx-auto max-w-3xl text-center">
+        {/* App icon */}
+        <div className="mb-8 flex justify-center">
+          <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-[28px] shadow-2xl overflow-hidden">
+            <img src="/icon.svg" alt="Rhysa" className="w-full h-full" />
+          </div>
+        </div>
         <h1 className="text-4xl font-extrabold tracking-tight text-neutral-900 sm:text-5xl lg:text-6xl dark:text-neutral-100">
           Simple guided breathing
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-neutral-600 dark:text-neutral-400">
-          A calm space to breathe. No accounts, no distractions.
+          A calm space to breathe.
         </p>
         <div className="mt-10 flex justify-center">
           <AppStoreBadge />

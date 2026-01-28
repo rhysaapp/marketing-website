@@ -4,7 +4,7 @@ const faqs = [
   {
     question: 'Does Rhysa require an account?',
     answer:
-      'No. Rhysa works without any account or sign-up. Just download the app and start breathing. Your privacy is important to us, so we never ask for personal information.',
+      'No. Rhysa works without any account or sign up. Just download the app and start breathing. Your privacy is important to us, so we never ask for personal information.',
   },
   {
     question: 'Is my data stored anywhere?',
@@ -24,7 +24,7 @@ const faqs = [
   {
     question: 'Will there be premium features?',
     answer:
-      'In the future, we may introduce additional breathing exercises as a premium option. If we do, it will be a one-time purchase to unlock premium exercises—no subscriptions. The core app will always remain free.',
+      'In the future, we may introduce additional breathing exercises as a premium option. If we do, it will be a one-time purchase to unlock premium exercises, no subscriptions. The core app will always remain free.',
   },
   {
     question: 'Does Rhysa work offline?',
