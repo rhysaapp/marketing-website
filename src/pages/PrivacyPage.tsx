@@ -54,7 +54,7 @@ export default function PrivacyPage() {
                 No accounts required
               </h2>
               <p className="mt-4 text-neutral-600 dark:text-neutral-400">
-                Rhysa does not require you to create an account. There's no sign-up process, no
+                Rhysa does not require you to create an account. There's no sign up process, no
                 email collection, and no personal information needed to use the app. Simply
                 download and start breathing.
               </p>

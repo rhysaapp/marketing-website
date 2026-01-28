@@ -44,7 +44,7 @@ const features = [
   {
     title: 'Minimal and focused',
     description:
-      'A distraction-free experience. No notifications, no gamification, no clutter.',
+      'A distraction and free experience. No notifications, no gamification, no clutter.',
     icon: (
       <svg
         className="h-6 w-6"
