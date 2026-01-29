@@ -18,7 +18,7 @@ const features = [
         />
       </svg>
     ),
-    color: 'bg-deep-breathing dark:bg-deep-breathing-dark',
+    color: 'bg-deep-breathing',
   },
   {
     title: 'No login required',
@@ -39,7 +39,7 @@ const features = [
         />
       </svg>
     ),
-    color: 'bg-box-breathing dark:bg-box-breathing-dark',
+    color: 'bg-box-breathing',
   },
   {
     title: 'Minimal and focused',
@@ -60,7 +60,7 @@ const features = [
         />
       </svg>
     ),
-    color: 'bg-478-breathing dark:bg-478-breathing-dark',
+    color: 'bg-478-breathing',
   },
   {
     title: 'Private by design',
@@ -81,19 +81,19 @@ const features = [
         />
       </svg>
     ),
-    color: 'bg-coherent-breathing dark:bg-coherent-breathing-dark',
+    color: 'bg-coherent-breathing',
   },
 ]
 
 export default function Features() {
   return (
-    <section className="border-t border-neutral-200 bg-neutral-100/50 px-6 py-24 sm:py-32 dark:border-neutral-800 dark:bg-neutral-900/50">
+    <section className="border-t border-neutral-200 bg-neutral-100/50 px-6 py-24 sm:py-32">
       <div className="mx-auto max-w-5xl">
         <div className="text-center">
-          <h2 className="text-2xl font-extrabold tracking-tight text-neutral-900 sm:text-3xl dark:text-neutral-100">
+          <h2 className="text-2xl font-extrabold tracking-tight text-neutral-900 sm:text-3xl">
             Designed for calm
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-neutral-600 dark:text-neutral-400">
+          <p className="mx-auto mt-4 max-w-2xl text-neutral-600">
             Everything you need for mindful breathing, nothing you don't.
           </p>
         </div>
@@ -102,15 +102,15 @@ export default function Features() {
           {features.map((feature) => (
             <div
               key={feature.title}
-              className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-sm dark:border-neutral-800 dark:bg-neutral-900"
+              className="rounded-2xl border border-neutral-200 bg-white p-6 transition-shadow hover:shadow-sm"
             >
-              <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${feature.color} text-primary dark:text-primary-dark`}>
+              <div className={`flex h-10 w-10 items-center justify-center rounded-lg ${feature.color} text-primary`}>
                 {feature.icon}
               </div>
-              <h3 className="mt-4 text-lg font-medium text-neutral-900 dark:text-neutral-100">
+              <h3 className="mt-4 text-lg font-medium text-neutral-900">
                 {feature.title}
               </h3>
-              <p className="mt-2 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-2 text-neutral-600">
                 {feature.description}
               </p>
             </div>

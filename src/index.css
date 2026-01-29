@@ -7,17 +7,9 @@
   --color-478-breathing: #B39A8F;
   --color-coherent-breathing: #8FA99A;
 
-  /* Dark mode exercise colors */
-  --color-deep-breathing-dark: #8FB6CC;
-  --color-box-breathing-dark: #9CA1A8;
-  --color-478-breathing-dark: #C7B1A7;
-  --color-coherent-breathing-dark: #8FA99A;
-
   /* Brand colors */
   --color-primary: #7A9EB1;
-  --color-primary-dark: #8FB6CC;
   --color-secondary: #8FA99A;
-  --color-secondary-dark: #8FA99A;
 
   /* Neutral palette */
   --color-neutral-50: #fafafa;
@@ -51,11 +43,9 @@ body {
 /* Focus styles for accessibility */
 :focus-visible {
   @apply outline-2 outline-offset-2 outline-primary;
-  @apply dark:outline-primary-dark;
 }
 
 /* Selection styling */
 ::selection {
   @apply bg-primary/20;
-  @apply dark:bg-primary-dark/20;
 }

@@ -8,10 +8,10 @@ export default function AppPreview() {
     <section className="py-16 sm:py-24 bg-magpie-cream">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-2xl font-extrabold tracking-tight text-neutral-900 sm:text-3xl dark:text-neutral-100">
+          <h2 className="text-2xl font-extrabold tracking-tight text-neutral-900 sm:text-3xl">
             Four exercises, one purpose
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-neutral-600 dark:text-neutral-400">
+          <p className="mx-auto mt-4 max-w-2xl text-neutral-600">
             Each breathing pattern is designed to help you find a different kind of calm.
           </p>
         </div>
