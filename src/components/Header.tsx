@@ -2,7 +2,7 @@ import { Link } from '@tanstack/react-router'
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-neutral-200 bg-neutral-50/80 backdrop-blur-sm dark:border-neutral-800 dark:bg-neutral-950/80">
+    <header className="sticky top-0 z-50 border-b border-neutral-200 bg-neutral-50/80 backdrop-blur-sm">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <Link to="/" className="flex items-center gap-2" onClick={() => window.scrollTo(0, 0)}>
           <div className='w-8 h-8 rounded-[28px] shadow-2xl overflow-hidden'>
@@ -15,7 +15,7 @@ export default function Header() {
           <li>
             <Link
               to="/support"
-              className="text-sm text-neutral-600 transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+              className="text-sm text-neutral-600 transition-colors hover:text-neutral-900"
             >
               Support
             </Link>
@@ -23,7 +23,7 @@ export default function Header() {
           <li>
             <Link
               to="/privacy"
-              className="text-sm text-neutral-600 transition-colors hover:text-neutral-900 dark:text-neutral-400 dark:hover:text-neutral-100"
+              className="text-sm text-neutral-600 transition-colors hover:text-neutral-900"
             >
               Privacy
             </Link>

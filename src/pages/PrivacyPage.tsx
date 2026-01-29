@@ -29,31 +29,31 @@ export default function PrivacyPage() {
       </Helmet>
 
       <div className="px-6 py-16 sm:py-24">
-        <article className="prose prose-neutral mx-auto max-w-3xl dark:prose-invert">
-          <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 sm:text-4xl dark:text-neutral-100">
+        <article className="prose prose-neutral mx-auto max-w-3xl">
+          <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 sm:text-4xl">
             Privacy Policy
           </h1>
 
-          <p className="mt-6 text-lg text-neutral-600 dark:text-neutral-400">
+          <p className="mt-6 text-lg text-neutral-600">
             Last updated: January 2026
           </p>
 
           <div className="mt-12 space-y-8">
             <section>
-              <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">
+              <h2 className="text-xl font-medium text-neutral-900">
                 Our commitment to privacy
               </h2>
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-neutral-600">
                 Rhysa is designed with privacy as a core principle. We believe your breathing
                 practice is personal, and your data should stay that way.
               </p>
             </section>
 
             <section>
-              <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">
+              <h2 className="text-xl font-medium text-neutral-900">
                 No accounts required
               </h2>
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-neutral-600">
                 Rhysa does not require you to create an account. There's no sign up process, no
                 email collection, and no personal information needed to use the app. Simply
                 download and start breathing.
@@ -61,10 +61,10 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">
+              <h2 className="text-xl font-medium text-neutral-900">
                 No data collection
               </h2>
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-neutral-600">
                 We do not collect, store, or transmit any personal data. Rhysa operates entirely
                 on your device. Your preferences and any settings are stored locally on your
                 iPhone and are never sent to our servers or any third parties.
@@ -72,10 +72,10 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">
+              <h2 className="text-xl font-medium text-neutral-900">
                 No analytics or tracking
               </h2>
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-neutral-600">
                 Rhysa does not include any analytics, tracking, or advertising SDKs. We don't
                 track how you use the app, when you use it, or which exercises you prefer. Your
                 breathing practice is yours alone.
@@ -83,10 +83,10 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">
+              <h2 className="text-xl font-medium text-neutral-900">
                 Offline-first design
               </h2>
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-neutral-600">
                 Rhysa works completely offline. The app doesn't require an internet connection
                 to function. All breathing exercises and features are available without
                 connectivity.
@@ -94,10 +94,10 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100">
+              <h2 className="text-xl font-medium text-neutral-900">
                 Future updates
               </h2>
-              <p className="mt-4 text-neutral-600 dark:text-neutral-400">
+              <p className="mt-4 text-neutral-600">
                 If we ever introduce premium features in the future, purchases will be handled
                 securely through the App Store. We will never have access to your payment
                 information. This privacy policy will be updated to reflect any changes.

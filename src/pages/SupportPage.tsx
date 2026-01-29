@@ -68,16 +68,16 @@ export default function SupportPage() {
 
       <div className="px-6 py-16 sm:py-24">
         <div className="mx-auto max-w-3xl">
-          <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 sm:text-4xl dark:text-neutral-100">
+          <h1 className="text-3xl font-extrabold tracking-tight text-neutral-900 sm:text-4xl">
             Support
           </h1>
-          <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-400">
+          <p className="mt-4 text-lg text-neutral-600">
             We're here to help. Check out the frequently asked questions below to find answers to common questions.
           </p>
 
           {/* FAQ section */}
           <section className="mt-16">
-            <h2 className="text-2xl font-medium text-neutral-900 dark:text-neutral-100">
+            <h2 className="text-2xl font-medium text-neutral-900">
               Frequently asked questions
             </h2>
 
@@ -96,11 +96,11 @@ export default function SupportPage() {
 function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
     <div className="py-2">
-      <div className="rounded-xl p-6 border border-neutral-200 bg-white hover:bg-neutral-50 dark:border-neutral-800 dark:bg-neutral-900 hover:dark:bg-neutral-800">
-        <span className="text-lg font-medium text-neutral-900 dark:text-neutral-100">
+      <div className="rounded-xl p-6 border border-neutral-200 bg-white hover:bg-neutral-50">
+        <span className="text-lg font-medium text-neutral-900">
           {question}
         </span>
-        <p className="mt-4 text-neutral-600 dark:text-neutral-400">{answer}</p>
+        <p className="mt-4 text-neutral-600">{answer}</p>
       </div>
     </div>
   )
